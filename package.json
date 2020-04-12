@@ -1,0 +1,40 @@
+{
+  "name": "@fullcrew/icon",
+  "version": "0.0.6",
+  "description": "Fullcrew Design Svg Icons from Vue",
+  "main": "dist/icon.cjs.js",
+  "module": "dist/icon.esm.mjs",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist",
+    "vetur",
+    "types/*.d.ts"
+  ],
+  "vetur": {
+    "tags": "vetur/tags.json",
+    "attributes": "vetur/attributes.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullcrew/icon.git"
+  },
+  "keywords": [
+    "Icons",
+    "Svg",
+    "Vue"
+  ],
+  "author": "Fullcrew, Inc. Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fullcrew/icon/issues"
+  },
+  "homepage": "https://develop.fullcrew.io/design/elements/icon",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.0.2",
+    "rollup": "^2.6.0",
+    "rollup-plugin-vue": "^5.1.6",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

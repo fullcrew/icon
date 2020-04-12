@@ -1,0 +1,57 @@
+:root {
+  --primary: #1890ff;
+  --success: #52c41a;
+  --danger: #f5222d;
+  --warning: #faad14;
+}
+
+.icon {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
+
+// sizes
+.icon.large {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon.medium {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon.small {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+// colors
+.icon.primary {
+  fill: var(--primary);
+}
+
+.icon.success {
+  fill: var(--success);
+}
+
+.icon.danger {
+  fill: var(--danger);
+}
+
+.icon.warning {
+  fill: var(--warning);
+}
+
+.icon.rotate-45 {
+  transform: rotate(45deg);
+}
+
+.icon.rotate-90 {
+  transform: rotate(90deg);
+}
+
+.icon.rotate-180 {
+  transform: rotate(180deg);
+}

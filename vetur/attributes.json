@@ -1,0 +1,44 @@
+{
+  "Icon/name": {
+    "description": "Icon name",
+    "options": [
+      "github",
+      "heart",
+      "moon",
+      "sun"
+    ]
+  },
+  "Icon/color": {
+    "description": "Icon color, optional",
+    "options": [
+      "primary",
+      "danger",
+      "warning",
+      "success"
+    ]
+  },
+  "Icon/size": {
+    "description": "Icon size, optional",
+    "options": [
+      "small",
+      "medium",
+      "large"
+    ]
+  },
+  "Icon/title": {
+    "description": "Icon title, optional",
+    "type": "string"
+  },
+  "Icon/desc": {
+    "description": "Icon description, optional",
+    "type": "string"
+  },
+  "Icon/rotate": {
+    "description": "Icon rotate, optional",
+    "options": [
+      "45",
+      "90",
+      "180"
+    ]
+  }
+}

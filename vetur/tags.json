@@ -1,0 +1,14 @@
+{
+  "Icon": {
+    "attributes": [
+      "name",
+      "color",
+      "size",
+      "title",
+      "desc",
+      "rotate"
+    ],
+    "subtags": [],
+    "description": "Fullcrew Design component <Icon />"
+  }
+}
