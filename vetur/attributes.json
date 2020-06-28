@@ -2,10 +2,7 @@
   "Icon/name": {
     "description": "Icon name",
     "options": [
-      "github",
-      "heart",
-      "moon",
-      "sun"
+      "mdiName"
     ]
   },
   "Icon/color": {

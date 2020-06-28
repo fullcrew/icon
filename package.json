@@ -1,7 +1,7 @@
 {
   "name": "@fullcrew/icon",
-  "version": "0.0.6",
-  "description": "Fullcrew Design Svg Icons from Vue",
+  "version": "0.0.10",
+  "description": "Material Design Svg Icons from Vue",
   "main": "dist/icon.cjs.js",
   "module": "dist/icon.esm.mjs",
   "scripts": {
@@ -32,9 +32,9 @@
   },
   "homepage": "https://develop.fullcrew.io/design/elements/icon",
   "devDependencies": {
-    "@rollup/plugin-json": "^4.0.2",
-    "rollup": "^2.6.0",
-    "rollup-plugin-vue": "^5.1.6",
+    "@rollup/plugin-json": "^4.1.0",
+    "rollup": "^2.18.1",
+    "rollup-plugin-vue": "^5.1.9",
     "vue-template-compiler": "^2.6.11"
   }
 }

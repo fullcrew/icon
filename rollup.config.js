@@ -1,5 +1,6 @@
 import json from '@rollup/plugin-json'
 import vue from 'rollup-plugin-vue'
+import pkg from './package.json'
 
 export default [
   // ES module
@@ -7,7 +8,7 @@ export default [
     input: 'src/index.js',
     output: {
       format: 'esm',
-      file: 'dist/icon.esm.mjs'
+      file: pkg.module
     },
     plugins: [json(), vue()]
   },
@@ -16,7 +17,7 @@ export default [
     input: 'src/index.js',
     output: {
       format: 'cjs',
-      file: 'dist/icon.cjs.js'
+      file: pkg.main
     },
     plugins: [json(), vue()]
   }
